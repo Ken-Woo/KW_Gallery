@@ -1,0 +1,52 @@
+.ST {
+    /*background-color: lightgoldenrodyellow;*/
+    background-color: pink;
+    font-size: smaller;
+}
+.tag_sk {
+  cursor: pointer;
+}
+
+.box {
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);
+  -moz-box-shadow: 2px 2px 15px #909090;
+  -webkit-box-shadow: 2px 2px 15px #909090;
+  /*box-shadow: 2px 2px 15px #909090;*/
+  box-shadow: 2px 2px 15px pink;
+  
+  margin-right: 4px;
+  /*min-height: 440px;*/
+}
+.box>table th{
+  width: 280px;
+  height: 30px;
+}
+
+table tr:first-child {
+  height: 30px;
+}
+
+th {
+  font-size: 10px;
+}
+/*
+.mid_tbl tr:first-child {
+  background-color: burlywood;
+}
+*/
+.abs_tbl tr:first-child {
+	background-color: antiquewhite;
+}
+.abs_tbl td {
+	background-color: cornsilk;
+}
+.th_abs {
+  vertical-align: top;
+  height: 193px;
+  width: 270px;
+  font-size: xx-small;
+}
+
+.markdown-body table {
+  margin: 0;
+}
